@@ -40,6 +40,35 @@
 
 /* /header */
 
+/* main */
+main{
+  
+    background-color: $darker;
+    h1{
+      color: $light;
+      padding-top: 2rem;
+    }
+  
+    .main_btn{
+      width: 200px;
+      height: 60px;
+      font-weight: 600;
+      border-radius: 0;
+    }
+    #my_btn_position{
+      width: 250px;
+      height: 70px;
+      position: absolute;
+      top: -35px;
+      left: 12px;
+      font-size: 1.6rem;
+      font-weight: 900;
+  
+    }
+     
+  }
+/* /main */
+
 /* card */
 
 .card_image{

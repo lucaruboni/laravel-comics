@@ -8,8 +8,12 @@
         </div>
           <div class="col">
             <ul class="d-flex gap-3 mt-5">
-               <li>HOME</li>
-               <li>COMIC</li>
+               <li>
+                <a href="/">HOME</a>
+               </li>
+               <li>
+                <a href="/single_comic">COMIC</a>
+               </li>
                <li>STORE</li>
                <li>VIDEOS</li>
                <li>COLLECTIBLES</li>
