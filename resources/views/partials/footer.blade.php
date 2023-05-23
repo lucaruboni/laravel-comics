@@ -60,7 +60,7 @@
               </div> 
               
               <div class="col">
-                <img src="../assets/img/dc-logo-bg.png" alt="logo-bg" class="logo_back">
+                <img src="{{ Vite::asset('resources/images/dc-logo-bg.png') }}" alt="logo-bg" class="logo_back">
               </div>
             
             </div>
@@ -76,11 +76,11 @@
           
           <div class="col d-flex py-5 gap-3">
             <h3 class="me-4">FOLLOW US</h3>
-            <img class="icon_size" src="../assets/img/footer-facebook.png" alt="">
-            <img class="icon_size" src="../assets/img/footer-periscope.png" alt="">
-            <img class="icon_size" src="../assets/img/footer-pinterest.png" alt="">
-            <img class="icon_size" src="../assets/img/footer-twitter.png" alt="">
-            <img class="icon_size" src="../assets/img/footer-youtube.png" alt="">
+            <img class="icon_size" src="{{ Vite::asset('resources/images/footer-facebook.png') }}" alt="">
+            <img class="icon_size" src="{{ Vite::asset('resources/images/footer-periscope.png') }}" alt="">
+            <img class="icon_size" src="{{ Vite::asset('resources/images/footer-pinterest.png') }}" alt="">
+            <img class="icon_size" src="{{ Vite::asset('resources/images/footer-twitter.png') }}" alt="">
+            <img class="icon_size" src="{{ Vite::asset('resources/images/footer-youtube.png') }}" alt="">
           </div>
 
             </div>

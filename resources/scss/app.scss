@@ -1,1 +1,106 @@
+@use '/resources/scss/partials/variables.scss' as *;
 @import '~bootstrap/scss/bootstrap';
+
+/* header */
+
+
+
+      header{
+        z-index: 100;
+        position: sticky;
+        top: 0;
+        left: 0;
+        height: 150px;
+        background-color: $light;
+
+    li{
+      list-style-type: none;
+      font-weight: 600;
+      margin-right: 0.2rem;
+      height: 102px;
+
+      &:hover{
+        color: $primary;
+        border-bottom: 20px solid $primary;
+
+      }
+    }
+
+    
+  }
+
+  .jumbotron{
+    height: 450px;
+    background-image: url(../images/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* /header */
+
+
+
+
+/* footer */
+
+footer{
+   
+    height: 450px;
+ 
+    h3{
+      color: $primary;
+    }
+ 
+    ul{
+      padding-left: 0;
+    }
+    li{
+      list-style-type: none;
+      color: $light_dark;
+      font-size: 0.9rem;
+ 
+      a{
+         text-decoration: none;
+         color: $light_dark;
+ 
+         &:hover{
+             color: $light;
+             font-size: 1rem;
+         }
+      }
+    }
+    .logo_back{
+      height: 400px;
+     
+    }
+    .row{
+      color: $light;
+    .up_col{
+      
+      background-image: url(../images/footer-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .down_col{
+      background-color: $dark;
+     
+      .my_btn{
+        color: $light;
+        border-radius: 0;
+        border-width: 2px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        font-weight: 600;
+      }
+    }
+   }
+  }
+  
+  .icon_size{
+     height: 35px;
+     aspect-ratio: 1 / 1;
+  }
+
+/* /footer */
