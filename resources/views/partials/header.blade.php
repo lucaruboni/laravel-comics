@@ -3,7 +3,7 @@
   <nav class="container h-100">
       <div class="row h-100">
         <div class="col">
-            <img src="{{ Vite::asset('/resources/img/dc-logo.png') }}" alt="DC" class="mt-4">
+            <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="DC" class="mt-4">
 
         </div>
           <div class="col">
